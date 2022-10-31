@@ -2,7 +2,7 @@
 # Actualiza Debian
 apt update && sudo apt upgrade -y
 
-# Remueve las instalaciones anteriores de cocker
+# Remueve las instalaciones anteriores de Docker
 apt remove docker-ce docker-ce-cli containerd.io -y
 apt remove docker docker-engine docker.io containerd runc -y
 
